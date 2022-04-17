@@ -2,9 +2,19 @@
 <html>
   <head><title>Page 1</title></head>
   <body>
-    <script>
+    <!-- <script>
       console.log('Hello Console!');
-    </script>
+      var John = 1
+      document.write(John)
+    </script> -->
     </body>
+    <div id="clickme" onclick="myFunction()">
+      Click Me!
+    </div>
+    <script>
+      function myFunction(){
+        document.getElementById("clickme").innerHTML = "Surprise!";
+      }
+    </script>
 </html>
 
